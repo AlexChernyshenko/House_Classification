@@ -4,6 +4,9 @@ import sys
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
+
+#Task 1
+#Importing data
 if __name__ == '__main__':
     if not os.path.exists('../Data'):
         os.mkdir('../Data')
@@ -16,7 +19,7 @@ if __name__ == '__main__':
         open('../Data/house_class.csv', 'wb').write(r.content)
         sys.stderr.write("[INFO] Loaded.\n")
 
-    # write your code here
+    # reading data from a .csv file
     df = pd.read_csv('../Data/house_class.csv')
 
     # print(f'''{df.shape[0]}
@@ -26,6 +29,9 @@ if __name__ == '__main__':
     # {df.Area.mean()}
     # {df.Zip_loc.nunique()}
     # ''')
+
+    #Task 2
+    #Spliting the dataset into train and test sets
     X, y = df.iloc[:, 1:7], df['Price']
     X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.7, random_state=1,
                                                         stratify=X['Zip_loc'].values)
