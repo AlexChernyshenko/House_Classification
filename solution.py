@@ -114,4 +114,4 @@ f1_score_target = report_target['macro avg']['f1-score']
 # Stage 6 output
 print(f"OneHotEncoder: {round(f1_score_one_hot, 2)}")
 print(f"OrdinalEncoder: {round(f1_score_ordinal, 2)}")
-print(f"TargetEncoder: {round(float(f1_score_target)+0.01, 2)}")
+print(f"TargetEncoder: {round(float(f1_score_target), 2)}")
