@@ -5,11 +5,11 @@ Dataset: Information about houses for sale, including price, area, rooms, geogra
 
 Key Steps:
 
-Data Preparation: Initial exploration and preprocessing of the dataset.
-Encoding Techniques: Application of one-hot encoding, ordinal encoding, and target encoding to categorical variables.
-Model Training and Evaluation: Training of Decision Tree Classifiers with each encoding strategy, followed by performance evaluation using accuracy, precision, recall, and F1 scores.
-Comparison and Conclusion: Comparative analysis of encoding strategies to determine the best model based on performance metrics.
-Deliverable: A concise report detailing the methodology, findings, model comparison, and recommendations for future projects.
+1. Data Preparation: Initial exploration and preprocessing of the dataset.
+2. Encoding Techniques: Application of one-hot encoding, ordinal encoding, and target encoding to categorical variables.
+3. Model Training and Evaluation: Training of Decision Tree Classifiers with each encoding strategy, followed by performance evaluation using accuracy, precision, recall, and F1 scores.
+4. Comparison and Conclusion: Comparative analysis of encoding strategies to determine the best model based on performance metrics.
+5. Deliverable: A concise report detailing the methodology, findings, model comparison, and recommendations for future projects.
 
 This project aims to provide insights into effective strategies for housing price classification, contributing to better predictive modeling in real estate analytics.
 
